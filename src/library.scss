@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap");
+
+:root {
+  --whiteColor: rgb(228, 228, 228);
+  --bgColor: rgb(39, 39, 39);
+  --fontColor: rgb(231, 231, 231);
+  --primaryColor: rgba(57, 77, 255, 0.579);
+  --secondaryColor: rgb(255, 204, 102);
+  --gradientText: -webkit-linear-gradient(
+    45deg,
+    var(--whiteColor) -5%,
+    var(--bgColor) 125%
+  );
+
+  --paddingPage: 6vw;
+  --xs-sizing: 8px;
+  --s-sizing: 16px;
+  --m-sizing: 24px;
+  --l-sizing: 32px;
+  --xl-sizing: 64px;
+  --xxl-sizing: 128px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ysabeau Office", sans-serif;
+  color: var(--fontColor);
+  background-color: var(--bgColor);
+  overflow: hidden;
+}

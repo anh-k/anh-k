@@ -9,10 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.27",
     "sass": "^1.69.5",
     "vue": "^3.3.4",
     "vue-kinesis": "^2.0.5",
-    "vue-router": "^4.2.5"
+    "vue-parallaxy": "^1.1.1",
+    "vue-router": "^4.2.5",
+    "vue-typewriter-effect": "^1.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
